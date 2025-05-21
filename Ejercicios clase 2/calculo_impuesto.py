@@ -1,6 +1,6 @@
 '''
-Clase:        Clase 1
-Tema:         Ejercicio de exploración 2
+Clase:        Clase 2
+Tema:         Ejercicio de exploración 2.2
 Ejercicio:    Contraseña de 8 caracteres
 Descripción:  Uso básico de variables y operaciones de desigualdades en Python.
 

@@ -1,6 +1,6 @@
 '''
-Clase:        Clase 1
-Tema:         Ejercicio de exploración 1
+Clase:        Clase 2
+Tema:         Ejercicio de exploración 2.1
 Ejercicio:    Contraseña de 8 caracteres
 Descripción:  Uso básico de variables y operaciones de desigualdades en Python.
 
@@ -9,14 +9,13 @@ Fecha:        2025-05-16
 Estado:       [ Terminado ]
 '''
 
-
-#Solicita una cadena de texto que representa una contraseña.
-# verifica si la contraseña cumple con las siguiente condiciones al tener al menos
-# 8 caracteres, un número y una mayúscula
-
 x = input("Escriba su contraseña: ")
 
-if len(x) >= 8:
+long = len(x) >= 8
+mayus = any(letra.isupper() for letra in x)
+num = any(caracter.isdigit() for caracter in x)
+
+if long and mayus and num:
     print("Contraseña segura")
 else:
     print("La contraseña no es segura")
